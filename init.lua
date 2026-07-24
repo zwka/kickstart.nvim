@@ -158,6 +158,9 @@ vim.o.inccommand = 'split'
 -- Show which line your cursor is on
 vim.o.cursorline = true
 
+-- Keep cursor as a block while typing
+vim.o.guicursor = 'n-v-c-i:block'
+
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.o.scrolloff = 10
 
